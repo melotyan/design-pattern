@@ -2,8 +2,8 @@ package abstractfactory.factory;
 
 import abstractfactory.product.Pad;
 import abstractfactory.product.Phone;
-import abstractfactory.product.concret.XiaomiPad;
-import abstractfactory.product.concret.XiaomiPhone;
+import abstractfactory.product.concrete.XiaomiPad;
+import abstractfactory.product.concrete.XiaomiPhone;
 
 /**
  * Created by hao.yan on 2015/9/6.

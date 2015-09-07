@@ -3,5 +3,6 @@ package bridge.implementor;
 /**
  * Created by hao.yan on 2015/9/7.
  */
-public class Cpu {
+public interface Cpu {
+    public String getInfo();
 }
