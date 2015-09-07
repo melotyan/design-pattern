@@ -1,4 +1,4 @@
-package abstractfactory.product.concret;
+package abstractfactory.product.concrete;
 
 import abstractfactory.product.Pad;
 
