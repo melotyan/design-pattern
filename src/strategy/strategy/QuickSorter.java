@@ -21,17 +21,17 @@ public class QuickSorter implements Sorter {
     }
 
     private int partition(Comparable[] num, int low, int high) {
-        int temp = low;
+        Comparable temp = num[low];
         while (low < high) {
-            while (low < high && num[high].compareTo(num[temp]) >= 0)
+            while (low < high && num[high].compareTo(temp) >= 0)
                 high--;
             num[low] = num[high];
 
-            while (low < high && num[low].compareTo(num[temp]) <= 0)
+            while (low < high && num[low].compareTo(temp) <= 0)
                 low++;
             num[high] = num[low];
         }
-        num[low] = num[temp];
+        num[low] = temp;
         return low;
     }
 }

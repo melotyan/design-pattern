@@ -29,16 +29,16 @@ public class MergeSorter implements Sorter {
     public void merge(Comparable[] num, int start1, int end1, int start2, int end2) {
         Comparable[] result = new Comparable[num.length];
 
-        int i = start1, j = start2, k = 0;
-        while (i < end1 && j < end2) {
+        int i = start1, j = start2, k = start1;
+        while (i <= end1 && j <= end2) {
             if (num[i].compareTo(num[j]) <= 0)
                 result[k++] = num[i++];
             else
                 result[k++] = num[j++];
         }
-        while (i < end1)
+        while (i <= end1)
             result[k++] = num[i++];
-        while (j < end2)
+        while (j <= end2)
             result[k++] = num[j++];
 
         while (start1 <= end2)

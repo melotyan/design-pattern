@@ -14,7 +14,7 @@ public class Main {
         String[] strArr = str.split(",");
         System.out.println("str is " + strArr[0]);
 
-        Integer[] intData = {2, 4, 5, 2, 1, 46, 33, 22, 34, 56, 7, 26 };
+        Integer[] intData = {2, 5, 4, 2, 1, 46, 33, 22, 34, 56, 7, 26 };
         String[] strData = {"java", "c", "c++", "python", "php", "ruby", "shell", "C+", "js"};
 
         Data data1 = new Data(intData, new QuickSorter());
