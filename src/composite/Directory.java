@@ -23,7 +23,7 @@ public abstract class Directory {
         printList("");
     }
 
-    public abstract void printList(String prefix);
+    protected abstract void printList(String prefix);
 
 
 }
