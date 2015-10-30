@@ -5,6 +5,9 @@ import responsibility_chain.resolver.NoneSupport;
 import responsibility_chain.resolver.OddSupport;
 import responsibility_chain.resolver.Support;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by hao.yan on 2015/10/19.
  */
@@ -20,5 +23,9 @@ public class Main {
         for (int i = 0; i < 15; i++) {
             alice.support(new Trouble(i));
         }
+    }
+
+    static class Inner {
+         static List<Integer> list;
     }
 }
