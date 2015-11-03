@@ -1,8 +1,8 @@
-package statepattern.context;
+package state.context;
 
-import statepattern.state.State;
-import statepattern.state.StateEnum;
-import statepattern.state.StateFactory;
+import state.state.State;
+import state.state.StateEnum;
+import state.state.StateFactory;
 
 /**
  * Created by hao.yan on 2015/11/2.

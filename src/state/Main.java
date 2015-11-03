@@ -1,6 +1,6 @@
-package statepattern;
+package state;
 
-import statepattern.context.GumballMachine;
+import state.context.GumballMachine;
 
 /**
  * Created by hao.yan on 2015/11/2.

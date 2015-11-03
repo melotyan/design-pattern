@@ -1,4 +1,4 @@
-package statepattern.state;
+package state.state;
 
 /**
  * Created by hao.yan on 2015/11/2.
